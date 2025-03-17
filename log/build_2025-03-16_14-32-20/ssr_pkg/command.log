@@ -1,0 +1,2 @@
+Invoking command in '/home/luohaojie/ros2_ws/src/build/ssr_pkg': /usr/bin/cmake /home/luohaojie/ros2_ws/src/ssr_pkg -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/luohaojie/ros2_ws/src/install/ssr_pkg
+Invoked command in '/home/luohaojie/ros2_ws/src/build/ssr_pkg' returned '1': /usr/bin/cmake /home/luohaojie/ros2_ws/src/ssr_pkg -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/luohaojie/ros2_ws/src/install/ssr_pkg

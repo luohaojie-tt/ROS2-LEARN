@@ -1,0 +1,128 @@
+[0.014s] Invoking command in '/home/luohaojie/ros2_ws/src/build/wpr_simulation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luohaojie/ros2_ws/src/build/wpr_simulation2 -- -j2 -l2
+[0.066s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.076s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.306s] [  2%] Built target wpr_simulation2__cpp
+[0.314s] [  3%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_generator_c.dir/rosidl_generator_c/wpr_simulation2/msg/detail/object__functions.c.o[0m
+[0.335s] [  3%] Built target ament_cmake_python_copy_wpr_simulation2
+[0.354s] [  5%] [32mBuilding CXX object CMakeFiles/wpb_home_mani_sim.dir/src/wpb_home_mani_sim.cpp.o[0m
+[0.369s] [  6%] [32m[1mLinking C shared library libwpr_simulation2__rosidl_generator_c.so[0m
+[0.400s] [  6%] Built target wpr_simulation2__rosidl_generator_c
+[0.423s] [  7%] [32mBuilding CXX object CMakeFiles/keyboard_vel_cmd.dir/src/keyboard_vel_cmd.cpp.o[0m
+[4.376s] [  8%] [32m[1mLinking CXX executable keyboard_vel_cmd[0m
+[4.561s] [  8%] Built target keyboard_vel_cmd
+[4.605s] [ 10%] [32mBuilding CXX object CMakeFiles/ball_random_move.dir/src/ball_random_move.cpp.o[0m
+[8.929s] [ 11%] [32m[1mLinking CXX executable ball_random_move[0m
+[9.069s] [ 11%] Built target ball_random_move
+[9.088s] [ 12%] [32mBuilding CXX object CMakeFiles/3_my_node.dir/demo_cpp/3_my_node.cpp.o[0m
+[9.264s] [ 13%] [32m[1mLinking CXX executable wpb_home_mani_sim[0m
+[9.676s] [ 13%] Built target wpb_home_mani_sim
+[9.698s] [ 15%] [32mBuilding CXX object CMakeFiles/3_publisher_node.dir/demo_cpp/3_publisher_node.cpp.o[0m
+[11.652s] [ 16%] [32m[1mLinking CXX executable 3_my_node[0m
+[11.726s] [ 16%] Built target 3_my_node
+[11.749s] [ 17%] [32mBuilding CXX object CMakeFiles/3_subscriber_node.dir/demo_cpp/3_subscriber_node.cpp.o[0m
+[13.420s] [ 18%] [32m[1mLinking CXX executable 3_publisher_node[0m
+[13.568s] [ 18%] Built target 3_publisher_node
+[13.588s] [ 20%] [32mBuilding CXX object CMakeFiles/4_velocity_command.dir/demo_cpp/4_velocity_command.cpp.o[0m
+[17.481s] [ 21%] [32m[1mLinking CXX executable 4_velocity_command[0m
+[17.634s] [ 21%] Built target 4_velocity_command
+[17.649s] [ 22%] [32mBuilding CXX object CMakeFiles/5_lidar_data.dir/demo_cpp/5_lidar_data.cpp.o[0m
+[19.033s] [ 24%] [32m[1mLinking CXX executable 3_subscriber_node[0m
+[19.303s] [ 24%] Built target 3_subscriber_node
+[19.323s] [ 25%] [32mBuilding CXX object CMakeFiles/5_lidar_behavior.dir/demo_cpp/5_lidar_behavior.cpp.o[0m
+[24.930s] [ 26%] [32m[1mLinking CXX executable 5_lidar_data[0m
+[25.234s] [ 26%] Built target 5_lidar_data
+[25.251s] [ 27%] [32mBuilding CXX object CMakeFiles/6_imu_data.dir/demo_cpp/6_imu_data.cpp.o[0m
+[26.667s] [ 29%] [32m[1mLinking CXX executable 5_lidar_behavior[0m
+[27.015s] [ 29%] Built target 5_lidar_behavior
+[27.030s] [ 30%] [32mBuilding CXX object CMakeFiles/6_imu_behavior.dir/demo_cpp/6_imu_behavior.cpp.o[0m
+[32.931s] [ 31%] [32m[1mLinking CXX executable 6_imu_data[0m
+[33.229s] [ 31%] Built target 6_imu_data
+[33.247s] [ 32%] [32mBuilding CXX object CMakeFiles/8_waypoint_navigation.dir/demo_cpp/8_waypoint_navigation.cpp.o[0m
+[34.852s] [ 34%] [32m[1mLinking CXX executable 6_imu_behavior[0m
+[35.150s] [ 34%] Built target 6_imu_behavior
+[35.172s] [ 35%] [32mBuilding CXX object CMakeFiles/9_cv_image.dir/demo_cpp/9_cv_image.cpp.o[0m
+[40.217s] [ 36%] [32m[1mLinking CXX executable 8_waypoint_navigation[0m
+[40.518s] [ 36%] Built target 8_waypoint_navigation
+[40.540s] [ 37%] [32mBuilding CXX object CMakeFiles/9_cv_hsv.dir/demo_cpp/9_cv_hsv.cpp.o[0m
+[41.913s] [ 39%] [32m[1mLinking CXX executable 9_cv_image[0m
+[42.698s] [ 39%] Built target 9_cv_image
+[42.722s] [ 40%] [32mBuilding CXX object CMakeFiles/9_cv_follow.dir/demo_cpp/9_cv_follow.cpp.o[0m
+[48.546s] [ 41%] [32m[1mLinking CXX executable 9_cv_hsv[0m
+[49.090s] [ 41%] Built target 9_cv_hsv
+[49.105s] [ 43%] [32mBuilding CXX object CMakeFiles/9_cv_face_detect.dir/demo_cpp/9_cv_face_detect.cpp.o[0m
+[50.733s] [ 44%] [32m[1mLinking CXX executable 9_cv_follow[0m
+[51.276s] [ 44%] Built target 9_cv_follow
+[51.297s] [ 45%] [32mBuilding CXX object CMakeFiles/10_pc_data.dir/demo_cpp/10_pc_data.cpp.o[0m
+[59.948s] [ 46%] [32m[1mLinking CXX executable 9_cv_face_detect[0m
+[60.608s] [ 46%] Built target 9_cv_face_detect
+[60.628s] [ 48%] [32mBuilding CXX object CMakeFiles/10_pc_objects.dir/demo_cpp/10_pc_objects.cpp.o[0m
+[62.200s] [ 49%] [32m[1mLinking CXX executable 10_pc_data[0m
+[63.072s] [ 49%] Built target 10_pc_data
+[63.089s] [ 50%] [32mBuilding CXX object CMakeFiles/11_mani_ctrl.dir/demo_cpp/11_mani_ctrl.cpp.o[0m
+[66.495s] [ 51%] [32m[1mLinking CXX executable 11_mani_ctrl[0m
+[66.630s] [ 51%] Built target 11_mani_ctrl
+[66.646s] [ 53%] [32mBuilding CXX object CMakeFiles/12_fetch.dir/demo_cpp/12_fetch.cpp.o[0m
+[71.596s] [ 54%] [32m[1mLinking CXX executable 10_pc_objects[0m
+[72.752s] [ 54%] Built target 10_pc_objects
+[72.768s] [ 55%] [32mBuilding CXX object CMakeFiles/demo_nav2_client.dir/demo_cpp/demo_nav2_client.cpp.o[0m
+[73.739s] [ 56%] [32m[1mLinking CXX executable 12_fetch[0m
+[74.051s] [ 56%] Built target 12_fetch
+[74.058s] [ 58%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[74.280s] [ 59%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wpr_simulation2/msg/object__type_support.cpp.o[0m
+[74.481s] [ 60%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_cpp.so[0m
+[74.512s] [ 60%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[74.524s] [ 62%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[74.741s] [ 63%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wpr_simulation2/msg/detail/object__type_support_c.cpp.o[0m
+[74.983s] [ 64%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_fastrtps_c.so[0m
+[75.065s] [ 64%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[75.081s] [ 65%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[75.327s] [ 67%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wpr_simulation2/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[75.743s] [ 68%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so[0m
+[75.799s] [ 68%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[75.809s] [ 69%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[76.026s] [ 70%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wpr_simulation2/msg/detail/object__type_support.c.o[0m
+[76.094s] [ 72%] [32m[1mLinking C shared library libwpr_simulation2__rosidl_typesupport_introspection_c.so[0m
+[76.119s] [ 72%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[76.128s] [ 73%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[76.185s] [ 74%] [32m[1mLinking CXX executable demo_nav2_client[0m
+[76.301s] [ 75%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_c.dir/rosidl_typesupport_c/wpr_simulation2/msg/object__type_support.cpp.o[0m
+[76.322s] [ 77%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_c.so[0m
+[76.347s] [ 77%] Built target demo_nav2_client
+[76.360s] [ 78%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[76.361s] [ 78%] Built target wpr_simulation2__rosidl_typesupport_c
+[76.580s] [ 79%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wpr_simulation2/msg/detail/object__type_support.cpp.o[0m
+[76.677s] running egg_info
+[76.678s] creating wpr_simulation2.egg-info
+[76.678s] writing wpr_simulation2.egg-info/PKG-INFO
+[76.678s] writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+[76.678s] writing top-level names to wpr_simulation2.egg-info/top_level.txt
+[76.679s] writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[76.681s] reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[76.682s] writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[76.702s] [ 79%] Built target ament_cmake_python_build_wpr_simulation2_egg
+[76.720s] [ 81%] [32mBuilding CXX object CMakeFiles/objects_publisher.dir/src/objects_publisher.cpp.o[0m
+[76.948s] [ 82%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_introspection_cpp.so[0m
+[77.012s] [ 82%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[77.031s] [ 83%] [32mBuilding CXX object CMakeFiles/grab_object_sim.dir/src/grab_object_sim.cpp.o[0m
+[87.667s] [ 84%] [32m[1mLinking CXX executable grab_object_sim[0m
+[88.516s] [ 84%] Built target grab_object_sim
+[88.536s] [ 86%] [32mBuilding CXX object CMakeFiles/11_grab_object.dir/demo_cpp/11_grab_object.cpp.o[0m
+[91.202s] [ 87%] [32m[1mLinking CXX executable objects_publisher[0m
+[92.625s] [ 87%] Built target objects_publisher
+[92.639s] [ 87%] Built target wpr_simulation2
+[92.652s] [ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[92.917s] [ 88%] Built target wpr_simulation2__py
+[92.936s] [ 89%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_generator_py.dir/rosidl_generator_py/wpr_simulation2/msg/_object_s.c.o[0m
+[93.097s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so[0m
+[93.132s] [ 91%] Built target wpr_simulation2__rosidl_generator_py
+[93.156s] [ 92%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[93.243s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[93.276s] [ 93%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+[93.298s] [ 94%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[93.372s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[93.402s] [ 96%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+[93.417s] [ 97%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c.o[0m
+[93.488s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[93.520s] [ 98%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+[96.224s] [100%] [32m[1mLinking CXX executable 11_grab_object[0m
+[96.872s] [100%] Built target 11_grab_object

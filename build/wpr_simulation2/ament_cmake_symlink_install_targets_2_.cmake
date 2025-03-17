@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/luohaojie/ros2_ws/src/build/wpr_simulation2/rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "wpr_simulation2__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/wpr_simulation2")

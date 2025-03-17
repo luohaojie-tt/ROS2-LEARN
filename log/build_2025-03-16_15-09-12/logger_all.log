@@ -1,0 +1,168 @@
+[0.082s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.082s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7464a845da80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7464a845d510>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7464a845d510>>, mixin_verb=('build',))
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.203s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/luohaojie/ros2_ws/src'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ssr_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ssr_pkg) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ssr_pkg) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ssr_pkg) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ssr_pkg) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ssr_pkg) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ssr_pkg) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ssr_pkg) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ssr_pkg) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'ssr_pkg' with type 'ros.ament_cmake' and name 'ssr_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'wpr_simulation2' with type 'ros.ament_cmake' and name 'wpr_simulation2'
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.250s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/luohaojie/ros2_ws/install
+[0.251s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 366 installed packages in /opt/ros/humble
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ssr_pkg' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ssr_pkg' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ssr_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ssr_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ssr_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ssr_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ssr_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ssr_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ssr_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'ssr_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luohaojie/ros2_ws/src/build/ssr_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luohaojie/ros2_ws/src/install/ssr_pkg', 'merge_install': False, 'path': '/home/luohaojie/ros2_ws/src/ssr_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'wpr_simulation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luohaojie/ros2_ws/src/build/wpr_simulation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luohaojie/ros2_ws/src/install/wpr_simulation2', 'merge_install': False, 'path': '/home/luohaojie/ros2_ws/src/wpr_simulation2', 'symlink_install': False, 'test_result_base': None}
+[0.284s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luohaojie/ros2_ws/src/ssr_pkg' with build type 'ament_cmake'
+[0.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luohaojie/ros2_ws/src/ssr_pkg'
+[0.287s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luohaojie/ros2_ws/src/wpr_simulation2' with build type 'ament_cmake'
+[0.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luohaojie/ros2_ws/src/wpr_simulation2'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luohaojie/ros2_ws/src/build/ssr_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luohaojie/ros2_ws/src/ssr_pkg -DCMAKE_INSTALL_PREFIX=/home/luohaojie/ros2_ws/src/install/ssr_pkg
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luohaojie/ros2_ws/src/build/wpr_simulation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luohaojie/ros2_ws/src/wpr_simulation2 -DCMAKE_INSTALL_PREFIX=/home/luohaojie/ros2_ws/src/install/wpr_simulation2
+[1.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luohaojie/ros2_ws/src/build/ssr_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luohaojie/ros2_ws/src/ssr_pkg -DCMAKE_INSTALL_PREFIX=/home/luohaojie/ros2_ws/src/install/ssr_pkg
+[1.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luohaojie/ros2_ws/src/build/ssr_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luohaojie/ros2_ws/src/build/ssr_pkg -- -j2 -l2
+[1.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luohaojie/ros2_ws/src/build/ssr_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luohaojie/ros2_ws/src/build/ssr_pkg -- -j2 -l2
+[1.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luohaojie/ros2_ws/src/build/ssr_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luohaojie/ros2_ws/src/build/ssr_pkg
+[1.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ssr_pkg)
+[1.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luohaojie/ros2_ws/src/build/ssr_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luohaojie/ros2_ws/src/build/ssr_pkg
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg' for CMake module files
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg' for CMake config files
+[1.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssr_pkg', 'cmake_prefix_path')
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/hook/cmake_prefix_path.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/hook/cmake_prefix_path.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/hook/cmake_prefix_path.sh'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg/bin'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg/lib/pkgconfig/ssr_pkg.pc'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg/lib/python3.10/site-packages'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg/bin'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.ps1'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.dsv'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.sh'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.bash'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.zsh'
+[1.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/colcon-core/packages/ssr_pkg)
+[1.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ssr_pkg)
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg' for CMake module files
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg' for CMake config files
+[1.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssr_pkg', 'cmake_prefix_path')
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/hook/cmake_prefix_path.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/hook/cmake_prefix_path.dsv'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/hook/cmake_prefix_path.sh'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg/bin'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg/lib/pkgconfig/ssr_pkg.pc'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg/lib/python3.10/site-packages'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/ssr_pkg/bin'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.sh'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.bash'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.zsh'
+[1.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/colcon-core/packages/ssr_pkg)
+[2.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luohaojie/ros2_ws/src/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luohaojie/ros2_ws/src/wpr_simulation2 -DCMAKE_INSTALL_PREFIX=/home/luohaojie/ros2_ws/src/install/wpr_simulation2
+[2.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luohaojie/ros2_ws/src/build/wpr_simulation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luohaojie/ros2_ws/src/build/wpr_simulation2 -- -j2 -l2
+[3.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luohaojie/ros2_ws/src/build/wpr_simulation2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luohaojie/ros2_ws/src/build/wpr_simulation2 -- -j2 -l2
+[3.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wpr_simulation2)
+[3.402s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/wpr_simulation2' for CMake module files
+[3.402s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/wpr_simulation2' for CMake config files
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/wpr_simulation2/bin'
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/wpr_simulation2/lib/pkgconfig/wpr_simulation2.pc'
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/wpr_simulation2/lib/python3.10/site-packages'
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/luohaojie/ros2_ws/src/install/wpr_simulation2/bin'
+[3.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.ps1'
+[3.404s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luohaojie/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.dsv'
+[3.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.sh'
+[3.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.bash'
+[3.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/luohaojie/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.zsh'
+[3.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luohaojie/ros2_ws/src/install/wpr_simulation2/share/colcon-core/packages/wpr_simulation2)
+[3.406s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.407s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.410s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.410s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.410s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.421s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luohaojie/ros2_ws/src/install/local_setup.ps1'
+[3.423s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luohaojie/ros2_ws/src/install/_local_setup_util_ps1.py'
+[3.424s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luohaojie/ros2_ws/src/install/setup.ps1'
+[3.425s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luohaojie/ros2_ws/src/install/local_setup.sh'
+[3.426s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luohaojie/ros2_ws/src/install/_local_setup_util_sh.py'
+[3.427s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luohaojie/ros2_ws/src/install/setup.sh'
+[3.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luohaojie/ros2_ws/src/install/local_setup.bash'
+[3.428s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luohaojie/ros2_ws/src/install/setup.bash'
+[3.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luohaojie/ros2_ws/src/install/local_setup.zsh'
+[3.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luohaojie/ros2_ws/src/install/setup.zsh'

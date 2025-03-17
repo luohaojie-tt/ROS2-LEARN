@@ -1,0 +1,1 @@
+Invoking command in '/home/luohaojie/ros2_ws/src/build/wpr_simulation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luohaojie/ros2_ws/src/build/wpr_simulation2 -- -j2 -l2

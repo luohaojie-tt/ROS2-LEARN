@@ -1,0 +1,4 @@
+Invoking command in '/home/luohaojie/ros2_ws/src/build/wpr_simulation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luohaojie/ros2_ws/src/wpr_simulation2 -DCMAKE_INSTALL_PREFIX=/home/luohaojie/ros2_ws/src/install/wpr_simulation2
+Invoked command in '/home/luohaojie/ros2_ws/src/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luohaojie/ros2_ws/src/wpr_simulation2 -DCMAKE_INSTALL_PREFIX=/home/luohaojie/ros2_ws/src/install/wpr_simulation2
+Invoking command in '/home/luohaojie/ros2_ws/src/build/wpr_simulation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luohaojie/ros2_ws/src/build/wpr_simulation2 -- -j2 -l2
+Invoked command in '/home/luohaojie/ros2_ws/src/build/wpr_simulation2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luohaojie/ros2_ws/src/build/wpr_simulation2 -- -j2 -l2

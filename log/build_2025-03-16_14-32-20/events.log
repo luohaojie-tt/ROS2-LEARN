@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000998] (ssr_pkg) JobQueued: {'identifier': 'ssr_pkg', 'dependencies': OrderedDict()}
+[0.001053] (wpr_simulation2) JobQueued: {'identifier': 'wpr_simulation2', 'dependencies': OrderedDict()}
+[0.001090] (ssr_pkg) JobStarted: {'identifier': 'ssr_pkg'}
+[0.007581] (wpr_simulation2) JobStarted: {'identifier': 'wpr_simulation2'}
+[0.015904] (ssr_pkg) JobProgress: {'identifier': 'ssr_pkg', 'progress': 'cmake'}
+[0.016551] (ssr_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/luohaojie/ros2_ws/src/ssr_pkg', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/luohaojie/ros2_ws/src/install/ssr_pkg'], 'cwd': '/home/luohaojie/ros2_ws/src/build/ssr_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'luohaojie'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luohaojie/ros2_ws/install/wpr_simulation2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luohaojie'), ('OLDPWD', '/home/luohaojie/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2059'), ('SYSTEMD_EXEC_PID', '2445'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3433'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luohaojie/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luohaojie'), ('JOURNAL_STREAM', '8:24555'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luohaojie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luohaojie-virtual-machine:@/tmp/.ICE-unix/2257,unix/luohaojie-virtual-machine:/tmp/.ICE-unix/2257'), ('INVOCATION_ID', '934821845cfa478f849c811b0d687203'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TJDC32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luohaojie/ros2_ws/install/wpr_simulation2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:45eac81e-10bc-4eb9-8267-b1be03b18d15'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luohaojie/ros2_ws/src/build/ssr_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luohaojie/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luohaojie/ros2_ws/install/wpr_simulation2')]), 'shell': False}
+[0.019454] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'cmake'}
+[0.022429] (wpr_simulation2) Command: {'cmd': ['/usr/bin/cmake', '/home/luohaojie/ros2_ws/src/wpr_simulation2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/luohaojie/ros2_ws/src/install/wpr_simulation2'], 'cwd': '/home/luohaojie/ros2_ws/src/build/wpr_simulation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'luohaojie'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luohaojie/ros2_ws/install/wpr_simulation2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luohaojie'), ('OLDPWD', '/home/luohaojie/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2059'), ('SYSTEMD_EXEC_PID', '2445'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3433'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luohaojie/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luohaojie'), ('JOURNAL_STREAM', '8:24555'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luohaojie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luohaojie-virtual-machine:@/tmp/.ICE-unix/2257,unix/luohaojie-virtual-machine:/tmp/.ICE-unix/2257'), ('INVOCATION_ID', '934821845cfa478f849c811b0d687203'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TJDC32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luohaojie/ros2_ws/install/wpr_simulation2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:45eac81e-10bc-4eb9-8267-b1be03b18d15'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luohaojie/ros2_ws/src/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luohaojie/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luohaojie/ros2_ws/install/wpr_simulation2:/opt/ros/humble')]), 'shell': False}
+[0.037630] (wpr_simulation2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.040565] (ssr_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[0.040759] (ssr_pkg) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.040818] (ssr_pkg) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.040866] (ssr_pkg) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.040908] (ssr_pkg) StderrLine: {'line': b'\n'}
+[0.040992] (ssr_pkg) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.041441] (ssr_pkg) StderrLine: {'line': b'  of the following names:\n'}
+[0.041571] (ssr_pkg) StderrLine: {'line': b'\n'}
+[0.041624] (ssr_pkg) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.041668] (ssr_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.041727] (ssr_pkg) StdoutLine: {'line': b'See also "/home/luohaojie/ros2_ws/src/build/ssr_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[0.041772] (ssr_pkg) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.041813] (ssr_pkg) StderrLine: {'line': b'\n'}
+[0.041853] (ssr_pkg) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.041895] (ssr_pkg) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.041933] (ssr_pkg) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.041973] (ssr_pkg) StderrLine: {'line': b'  installed.\n'}
+[0.042044] (ssr_pkg) StderrLine: {'line': b'\n'}
+[0.042145] (ssr_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.044471] (ssr_pkg) CommandEnded: {'returncode': 1}
+[0.062416] (ssr_pkg) JobEnded: {'identifier': 'ssr_pkg', 'rc': 1}
+[0.100150] (-) TimerEvent: {}
+[0.146272] (wpr_simulation2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.161094] (wpr_simulation2) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[0.161373] (wpr_simulation2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.188088] (wpr_simulation2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.190452] (wpr_simulation2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.195976] (wpr_simulation2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.200397] (-) TimerEvent: {}
+[0.205507] (wpr_simulation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.222435] (wpr_simulation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.256534] (wpr_simulation2) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.269746] (wpr_simulation2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.296874] (wpr_simulation2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.298288] (wpr_simulation2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.301383] (-) TimerEvent: {}
+[0.387118] (wpr_simulation2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.401461] (-) TimerEvent: {}
+[0.423969] (wpr_simulation2) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.424135] (wpr_simulation2) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.453613] (wpr_simulation2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.477668] (wpr_simulation2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.482261] (wpr_simulation2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.483625] (wpr_simulation2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.501647] (-) TimerEvent: {}
+[0.555615] (wpr_simulation2) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[0.574657] (wpr_simulation2) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.581654] (wpr_simulation2) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.594602] (wpr_simulation2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.602693] (-) TimerEvent: {}
+[0.619810] (wpr_simulation2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.649785] (wpr_simulation2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.702942] (-) TimerEvent: {}
+[0.803485] (-) TimerEvent: {}
+[0.905449] (-) TimerEvent: {}
+[0.930630] (wpr_simulation2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.935134] (wpr_simulation2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.005669] (-) TimerEvent: {}
+[1.064738] (wpr_simulation2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.070419] (wpr_simulation2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.076668] (wpr_simulation2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.105777] (-) TimerEvent: {}
+[1.182593] (wpr_simulation2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.205969] (-) TimerEvent: {}
+[1.290867] (wpr_simulation2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.306827] (-) TimerEvent: {}
+[1.407721] (-) TimerEvent: {}
+[1.426482] (wpr_simulation2) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[1.437243] (wpr_simulation2) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.456044] (wpr_simulation2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.507783] (-) TimerEvent: {}
+[1.608884] (-) TimerEvent: {}
+[1.679783] (wpr_simulation2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.709439] (-) TimerEvent: {}
+[1.810284] (-) TimerEvent: {}
+[1.910687] (-) TimerEvent: {}
+[1.963419] (wpr_simulation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.011855] (-) TimerEvent: {}
+[2.112820] (-) TimerEvent: {}
+[2.118276] (wpr_simulation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.136780] (wpr_simulation2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.158921] (wpr_simulation2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.159074] (wpr_simulation2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.159117] (wpr_simulation2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.213628] (-) TimerEvent: {}
+[2.242982] (wpr_simulation2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.269206] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.274213] (wpr_simulation2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/luohaojie/ros2_ws/src/wpr_simulation2/include\n'}
+[2.274335] (wpr_simulation2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.275937] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.278288] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.279565] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.286252] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.286332] (wpr_simulation2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.287579] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.291548] (wpr_simulation2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.313836] (-) TimerEvent: {}
+[2.414201] (-) TimerEvent: {}
+[2.504752] (wpr_simulation2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.514384] (-) TimerEvent: {}
+[2.587685] (wpr_simulation2) StdoutLine: {'line': b'-- Build files have been written to: /home/luohaojie/ros2_ws/src/build/wpr_simulation2\n'}
+[2.614774] (-) TimerEvent: {}
+[2.615796] (wpr_simulation2) JobEnded: {'identifier': 'wpr_simulation2', 'rc': 'SIGINT'}
+[2.627583] (-) EventReactorShutdown: {}
