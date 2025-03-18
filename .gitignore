@@ -1,0 +1,23 @@
+# 忽略 build 目录及其内容
+/build/
+
+# 忽略 install 目录及其内容
+/install/
+
+# 忽略 log 目录及其内容
+/log/
+
+# 忽略特定文件类型（如 .cmake、.json 等）
+*.cmake
+*.json
+*.stamp
+*.dsv
+*.pyc
+*.sh
+*.zsh
+
+# 忽略特定的脚本文件
+*_setup_util_*.py
+*_setup.ps1
+*_setup.sh
+*_setup.zsh
