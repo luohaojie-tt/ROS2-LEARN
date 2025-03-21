@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>ssr_pkg</name>
+  <name>atr_pkg</name>
   <version>0.0.0</version>
-  <description>chao_node</description>
-  <maintainer email="luohaojie@todo.todo">luohaojie</maintainer>
-  <license>GPLv3</license>
+  <description>TODO: Package description</description>
+  <maintainer email="1614078523@qq.com">luohaojie</maintainer>
+  <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_python</buildtool_depend>
-
-
   <depend>rclcpp</depend>
   <depend>rclpy</depend>
   <depend>std_msgs</depend>

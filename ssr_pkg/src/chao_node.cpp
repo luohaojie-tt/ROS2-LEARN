@@ -8,7 +8,7 @@ int main(int argc, char **argv)
 
     // 打印"Hello World!"到控制台
     printf("Hello World!\n");
-    priintf("你好!\n");
+    printf("你好!\n");
 
     // 创建一个名为"chao_node"的节点
     auto node = rclcpp::Node::make_shared("chao_node");

@@ -12,6 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Dependencies 
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
  
 # Node Configuration 
@@ -35,6 +36,16 @@ install(TARGETS chao_node
 
 install(TARGETS yao_node 
   EXPORT export_${PROJECT_NAME}
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(PROGRAMS
+  scripts/chao_node_py.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(PROGRAMS
+  scripts/yao_node_py.py
   DESTINATION lib/${PROJECT_NAME}
 )
  
