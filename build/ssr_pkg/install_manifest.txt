@@ -1,3 +1,9 @@
+/home/luohaojie/ros2_ws/src/install/ssr_pkg/lib/ssr_pkg/chao_node
+/home/luohaojie/ros2_ws/src/install/ssr_pkg/lib/ssr_pkg/yao_node
+/home/luohaojie/ros2_ws/src/install/ssr_pkg/lib/ssr_pkg/chao_node_py.py
+/home/luohaojie/ros2_ws/src/install/ssr_pkg/lib/ssr_pkg/yao_node_py.py
+/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/environment/library_path.sh
+/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/environment/library_path.dsv
 /home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ament_index/resource_index/package_run_dependencies/ssr_pkg
 /home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ament_index/resource_index/parent_prefix_path/ssr_pkg
 /home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/environment/ament_prefix_path.sh
@@ -10,6 +16,9 @@
 /home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/local_setup.dsv
 /home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.dsv
 /home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ament_index/resource_index/packages/ssr_pkg
+/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/cmake/ament_cmake_export_libraries-extras.cmake
 /home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/cmake/ssr_pkgConfig.cmake
 /home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/cmake/ssr_pkgConfig-version.cmake
 /home/luohaojie/ros2_ws/src/install/ssr_pkg/share/ssr_pkg/package.xml

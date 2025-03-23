@@ -197,6 +197,80 @@ ssr_pkg_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ssr_pkg_uninstall.dir/build.make CMakeFiles/ssr_pkg_uninstall.dir/build
 .PHONY : ssr_pkg_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named chao_node
+
+# Build rule for target.
+chao_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chao_node
+.PHONY : chao_node
+
+# fast build rule for target.
+chao_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chao_node.dir/build.make CMakeFiles/chao_node.dir/build
+.PHONY : chao_node/fast
+
+#=============================================================================
+# Target rules for targets named yao_node
+
+# Build rule for target.
+yao_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yao_node
+.PHONY : yao_node
+
+# fast build rule for target.
+yao_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yao_node.dir/build.make CMakeFiles/yao_node.dir/build
+.PHONY : yao_node/fast
+
+src/chao_node.o: src/chao_node.cpp.o
+.PHONY : src/chao_node.o
+
+# target to build an object file
+src/chao_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chao_node.dir/build.make CMakeFiles/chao_node.dir/src/chao_node.cpp.o
+.PHONY : src/chao_node.cpp.o
+
+src/chao_node.i: src/chao_node.cpp.i
+.PHONY : src/chao_node.i
+
+# target to preprocess a source file
+src/chao_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chao_node.dir/build.make CMakeFiles/chao_node.dir/src/chao_node.cpp.i
+.PHONY : src/chao_node.cpp.i
+
+src/chao_node.s: src/chao_node.cpp.s
+.PHONY : src/chao_node.s
+
+# target to generate assembly for a file
+src/chao_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chao_node.dir/build.make CMakeFiles/chao_node.dir/src/chao_node.cpp.s
+.PHONY : src/chao_node.cpp.s
+
+src/yao_node.o: src/yao_node.cpp.o
+.PHONY : src/yao_node.o
+
+# target to build an object file
+src/yao_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yao_node.dir/build.make CMakeFiles/yao_node.dir/src/yao_node.cpp.o
+.PHONY : src/yao_node.cpp.o
+
+src/yao_node.i: src/yao_node.cpp.i
+.PHONY : src/yao_node.i
+
+# target to preprocess a source file
+src/yao_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yao_node.dir/build.make CMakeFiles/yao_node.dir/src/yao_node.cpp.i
+.PHONY : src/yao_node.cpp.i
+
+src/yao_node.s: src/yao_node.cpp.s
+.PHONY : src/yao_node.s
+
+# target to generate assembly for a file
+src/yao_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yao_node.dir/build.make CMakeFiles/yao_node.dir/src/yao_node.cpp.s
+.PHONY : src/yao_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +286,14 @@ help:
 	@echo "... test"
 	@echo "... ssr_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... chao_node"
+	@echo "... yao_node"
+	@echo "... src/chao_node.o"
+	@echo "... src/chao_node.i"
+	@echo "... src/chao_node.s"
+	@echo "... src/yao_node.o"
+	@echo "... src/yao_node.i"
+	@echo "... src/yao_node.s"
 .PHONY : help
 
 
