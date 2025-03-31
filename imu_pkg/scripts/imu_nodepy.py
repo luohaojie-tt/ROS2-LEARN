@@ -5,7 +5,7 @@ from rclpy.node import Node
 from sensor_msgs.msg import Imu
 from tf_transformations import euler_from_quaternion
 import math
-
+from geometry_msgs.msg import Twist
 def getImu_collback(msg):
     """
     回调函数，用于处理IMU传感器数据并计算欧拉角。
@@ -18,6 +18,7 @@ def getImu_collback(msg):
     返回值:
         无返回值。该函数直接通过日志输出计算得到的欧拉角。
     """
+    global pub
     # 如果方向协方差的第一个元素小于0，说明数据无效，直接返回
     if msg.orientation_covariance[0] < 0:
         return
@@ -40,6 +41,12 @@ def getImu_collback(msg):
 
     # 输出欧拉角到日志中
     node.get_logger().info('roll: {}, pitch: {}, yaw: {}'.format(roll, pitch, yaw))
+    target_yaw = 90
+    diff_yaw = target_yaw - yaw
+    vel_cmd = Twist()
+    vel_cmd.angular.z = diff_yaw * 0.01
+    pub.publish(vel_cmd)
+
 
 
 if __name__ == '__main__':
@@ -51,7 +58,7 @@ if __name__ == '__main__':
 
     # 订阅IMU数据话题，回调函数为getImu_collback，队列大小为10
     sub = node.create_subscription(Imu, 'imu/data', getImu_collback, 10)
-
+    pub = node.create_publisher(Twist, '/cmd_vel', 10)
     # 进入事件循环，等待消息并处理回调函数
     rclpy.spin(node)
 
